@@ -1,0 +1,148 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0d0d0d;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+h1{
+    color: white;
+    border: 1px #212121 solid;
+    background-color: #212121;
+    text-align: center;
+}
+table{
+    background-color: #212121;
+    border-collapse: collapse;
+    width: 100%;
+}
+td,th{
+    border: black solid 1px;
+    text-align: center;
+}
+.dashcon{
+    width: 70px;
+    padding: 5px;
+    text-align: left;
+}
+.dashlink{
+    padding: 10px;
+}
+.account{
+    width: 70px;
+    text-align: end;
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+}
+a:visited{
+    color: rgb(255, 255, 255);
+}
+a:active{
+    color: rgb(255, 255, 255);
+}
+
+.thumbnail{
+    text-align: center;
+    padding: 20px;
+}
+.about{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+ 
+form {
+    margin: auto;
+}
+ 
+ 
+main {
+    display:flex;
+    justify-content:center;
+    padding:80px 16px
+}
+ 
+form {
+    width:100%;
+    max-width:450px;
+    height: 550px;
+    padding:28px;
+    background-color: #212121;
+    border-radius:12px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.6);
+    border:1px solid rgba(255,255,255,0.03)
+}
+ 
+form h2 {
+    color:#e6eef8;
+    margin:0 0 14px;
+    font-size:1.25rem
+}
+ 
+label {
+    display:block;
+    color:#cbd5e1;
+    margin-bottom:10px;
+    font-size:0.95rem
+}
+ 
+input[type="email"], input[type="password"] {
+    width:100%;
+    padding:10px 12px;
+    border-radius:8px;
+    border:1px solid #ffffff0f;
+    background:#ffffff05;
+    color:#f8fafc
+}
+ 
+input::placeholder {
+    color:rgba(248,250,252,0.4)
+}
+ 
+button {
+    margin-top:12px;
+    padding:10px 16px;
+    border-radius:10px;
+    color:white;
+}
+ 
+input[type="submit"] {
+    width: 100%;
+    height: 25px;
+}
+ 
+.logo {
+    text-align: center;
+    margin-top: 25px;
+}
+ 
+p {
+    color: white;
+    text-align: center;
+}
+ 
+footer{
+    text-align: center;
+    color: aliceblue;
+    bottom: 100%;
+    width: 100%;
+    background-color: #0d0d0d;
+}
+ 
+input[type=password], input[type=email] {
+    margin-right: 15px;
+    width: 95%;
+}
+ 
+input[type=submit] {
+    width: 100%;
+    height: 32.5px;
+    border-radius: 6.5px;
+}

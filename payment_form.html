@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki-Games | Payment Form</title>
+    <link rel="stylesheet" href="payment_form.css">
+    <link rel="icon" href="img/wikiGicon.png">
+</head>
+<body>
+    <header>
+        <table class="header_table">
+            <tr>
+                <th class="header_table_data" rowspan="2" style="width: 100px;"><img class="dashcon" src="img/light.png" alt="icon"></th>
+                <th class="header_table_data" colspan="3"><h1 class="name">Action Games</h1></th>
+                <th class="header_table_data" style="width: 100px;"><a href="sign_in.html"><img class="account" src="img/acc.png" alt="account"></a></th>
+            </tr>
+            <tr style="color: white;" class="dashlink">
+                <td class="header_table_data" style="color: white; width: 33.33%; height: 30px;">
+                        <a href="index.html" style="margin: auto;">Home</a>
+                </td>
+                <td bgcolor="#333333" class="header_table_data" style="width: 33.33%; height: 30px;">
+                    <a href="categories.html" style="margin: auto;">Categories</a>
+                </td>
+                <td class="header_table_data" style="width: 33.33%; height: 30px;">
+                    <a href="about_us.html" style="margin: auto;">About Us</a>
+                </td>
+                <td class="header_table_data">
+                    <a style="margin: 30px;" href="sign_in.html">Login</a>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <br><br><br><br><br><br><br>
+    <form action="categories.html" novalidate>
+        <div class="payment_form">
+            <h2>Payment Form</h2>
+
+            <label for="fullname">Full Name</label>
+            <input type="email" name="fullname" id="fullname" placeholder="Your Full Name"><br><br>
+
+
+            <label for="username">Username</label>
+            <input type="email" name="username" id="username" placeholder="Your username"><br><br>
+ 
+            <label for="E_Mail">E-mail address</label>
+            <input type="email" name="E-mail " id="E_Mail" placeholder="you@gmail.com" style="margin-right: 10px;"><br><br>
+
+            <label style="display: inline-block;" for="cars">Payment Method : </label>
+            <select id="method" name="payment_method" placeholder="Choose a payment method">
+                <option value="paypal">PayPal</option>
+                <option value="visa">Visa</option>
+                <option value="applepay">Apple Pay</option>
+                <option value="kbzpay">KBZ Pay</option>
+                <option value="wave">Wave</option>
+                <option value="mastercard">MasterCard</option>
+                <option value="american_express">American Express</option>
+            </select><br><br>
+
+            <label for="">Credit Card Number</label>
+            <input type="password" name="creditcard-number" id="credit" placeholder="1234-XXXX-XXXX-XXXX"><br><br>
+ 
+            <label for="psw">Password</label>
+            <input type="password" name="Password " id="psw" placeholder="Your password"><br><br><br>       
+
+            <input type="submit" value="Buy" style="font-size: large;"><br>
+
+            <div class="logo">
+                <img src="img/light.png" alt="logo" width="120px">
+            </div>
+        </div>
+    </form>
+    <footer>
+        <table style="margin: auto;">
+            <tr>
+                <td>
+                    <p>© Copyright 2025. All rights reserved. Developed by Wiki-Games.</p>
+                </td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>

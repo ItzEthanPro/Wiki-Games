@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki-Games Sign-up</title>
+    <link rel="stylesheet" href="sign_up.css">
+    <link rel="icon" href="img/light.png">
+</head>
+<body>
+    <header>
+        <table>
+            <tr>
+                <th rowspan="2" style="width: 100px;"><img class="dashcon" src="img/light.png" alt="icon"></th>
+                <th colspan="3"><h1 class="name">Wiki-Games</h1></th>
+                <th style="width: 100px;"><a href="sign_in.html"><img class="account" src="img/acc.png" alt="account"></a></th>
+            </tr>
+            <tr style="color: white;" class="dashlink">
+                <td style="color: white; width: 33.33%; height: 30px;">
+                        <a href="index.html" style="margin: auto;">Home</a>
+                </td>
+                <td style="width: 33.33%; height: 30px;">
+                    <a href="categories.html" style="margin: auto;">Categories</a>
+                </td>
+                <td style="width: 33.33%; height: 30px;">
+                    <a href="about_us.html" style="margin: auto;">About Us</a>
+                </td>
+                <td bgcolor="#333333">
+                    <a style="margin: 30px;" href="sign_in.html">Login</a>
+                </td>
+            </tr>
+        </table>
+    </header>
+
+    <br><br><br><br><br><br><br>
+    <form action="index.html" novalidate>
+        <div class="Signupbox">
+            <h2>Sign up</h2>
+
+            <!-- Username -->
+            <label for="username">Username</label>
+            <input type="email" name="username" id="username" placeholder="Don't use your real name"><br><br>
+
+            <!-- Email / Phone No -->
+            <label for="contact">Phone number</label>
+            <input type="email" name="contact" id="contact" placeholder="+1 (XXX) XXX-XXXX"><br><br>
+
+            <label for="email">E-mail address</label>
+            <input type="email" name="email" id="email" placeholder="you@gmail.com"><br><br>
+
+            <!-- Password -->
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="At least 6 characters"><br><br><br>
+
+            <input type="submit" value="Sign Up" class="signup-btn">
+
+            <p style="text-align:center; margin-top:10px;">Already have an account? <a href="sign_in.html">Sign-in</a></p>
+
+            <div class="logo" style="text-align:center; margin-top:12px;">
+            <img src="img/light.png" alt="logo" width="120">
+            </div>
+        </div>
+    </form>
+
+    <br><br><br><br>
+    <footer>
+        <table>
+            <tr>
+                <td>
+                    <p>© Copyright 2025. All rights reserved. Developed by Wiki-Games.</p>
+                </td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>

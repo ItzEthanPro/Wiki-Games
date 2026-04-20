@@ -1,0 +1,101 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0d0d0d;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.name{
+    color: white;
+    border: 1px #212121 solid;
+    background-color: #212121;
+    text-align: center;
+}
+table{
+    background-color: #212121;
+    border-collapse: collapse;
+    width: 100%;
+}
+#n{
+    border: black solid 1px;
+    text-align: center;
+}
+.dashcon{
+    width: 70px;
+    padding: 5px;
+    text-align: left;
+}
+.dashlink{
+    padding: 10px;
+}
+.account{
+    width: 70px;
+    text-align: right;
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+}
+a:visited{
+    color: rgb(255, 255, 255);
+}
+a:active{
+    color: rgb(255, 255, 255);
+}
+
+.thumbnail{
+    text-align: center;
+    padding: 20px;
+}
+.about{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+footer{
+    text-align: center;
+    color: aliceblue;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #0d0d0d;
+}
+
+.about,.a{
+    background-color: #212121;
+    width: 89%;
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 25px;
+}
+#abt{
+    width: auto;
+}
+#abtu{
+    padding-bottom: 15px;
+    width: 20%;
+    background-color: #1a1a1a;
+    border: #1a1a1a solid 1px;
+    border-radius: 10px;
+    padding: 10px;
+}
+#pic{
+    border: aliceblue solid 1px;
+    border-radius: 50%;
+}
+#sm{
+    background-color: #1a1a1a;
+    border: #1a1a1a solid 1px;
+    border-radius: 10px;
+}
+.social{
+    width: 25px;
+    padding: 15px;
+}
+.links{
+    padding: 4px;
+}
